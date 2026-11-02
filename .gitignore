@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments and Virtualenvs
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific: Raw data, clips, audio, manifest, folds
+data/*
+!data/.gitkeep
+
+# Project-specific: Cached features (.npy, etc.)
+features/*/*
+!features/*/.gitkeep
+features/*.npy
+features/*.npz
+features/*.pkl
+*.npy
+*.npz
+
+# Model weights, checkpoints, logs, and artifacts
+*.pt
+*.pth
+*.pwf
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+checkpoints/
+wandb/
+runs/
+logs/
+*.log
+
+# Results generated during experiments
+results/*
+!results/.gitkeep
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
