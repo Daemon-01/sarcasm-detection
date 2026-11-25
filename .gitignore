@@ -99,4 +99,9 @@ Thumbs.db
 *.sublime-project
 *.swp
 *.swo
+.venv_audio/
+!features/prosody/prosody_features.csv
 *~
+
+/.venv_audio/
+/sarcastone/
